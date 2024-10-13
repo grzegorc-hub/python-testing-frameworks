@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "python-testing-frameworks"
+version = "0.1.0"
+description = "comparision of top python's testing frameworks"
+authors = ["Maciej Grzegorczyk"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+ultralytics = "^8.2.103"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
