@@ -7,7 +7,7 @@ from demo_app.cat_detector import CatDetector
 
 
 class TestCatDetector(unittest.TestCase):
-    TEST_IMAGE_FILENAME = 'demo_app/Girl_and_cat.jpg' 
+    TEST_IMAGE_FILENAME = 'images/Girl_and_cat.jpg'
     EXPECTED_NUMBER_OF_CATS = 1
     EXPECTED_NUMBER_OF_PEOPLE = 1
     EXPECTED_NUMBER_OF_OBJECTS = EXPECTED_NUMBER_OF_CATS + EXPECTED_NUMBER_OF_PEOPLE

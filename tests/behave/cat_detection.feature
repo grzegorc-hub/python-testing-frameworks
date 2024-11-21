@@ -3,7 +3,7 @@ Feature: Cat Detector Test
   
   Scenario: Cat and people detection
     Given we have cat detector
-    When we perform cat detection on test image "demo_app/Girl_and_cat.jpg" 
+    When we perform cat detection on test image "images/Girl_and_cat.jpg" 
     Then we check if detection data is correct
         | property                  | value  |
         | number_of_objects         | 2      |
