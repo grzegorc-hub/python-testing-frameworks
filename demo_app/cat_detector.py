@@ -25,7 +25,7 @@ class CatDetector:
 
 if __name__ == '__main__':  # just a demo of CatDetector
     cat_detector = CatDetector()
-    image_path = 'demo_app/Girl_and_cat.jpg'
+    image_path = 'images/Girl_and_cat.jpg'
 
     *_, boxes, clss, confs, names = cat_detector.run(image_path)
 
@@ -41,3 +41,4 @@ if __name__ == '__main__':  # just a demo of CatDetector
     cv2.imshow('Cats & People', annotated_img)
     cv2.waitKey(0)
     cv2.destroyAllWindows()
+    

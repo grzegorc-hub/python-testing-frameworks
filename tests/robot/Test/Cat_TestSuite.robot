@@ -3,7 +3,7 @@ Library        String
 Library        ../Library/CatDetectorLibrary.py
 
 *** Variables ***
-${TEST_IMAGE}                         demo_app/Girl_and_cat.jpg
+${TEST_IMAGE}                         images/Girl_and_cat.jpg
 ${EXPECTED_NUMBER_OF_OBJECTS}         2
 ${EXPECTED_NUMBER_OF_CATS}            1
 ${EXPECTED_NUMBER_OF_PEOPLE}          1
